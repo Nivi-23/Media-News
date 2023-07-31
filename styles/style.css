@@ -1,0 +1,98 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+*
+{
+
+	margin:0;
+	padding:0;
+	font-family:Geneva;
+	box-sizing: border-box;
+}
+
+
+.news{
+	background:#fff;
+	border-radius: 15px;
+	box-shadow: 6px 6px 6px  rgba(0, 0, 0, .2);
+	display: flex;
+	max-width: 100%;
+	height: 100px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+h3{
+	color:#000;
+}
+
+
+h5{
+	color:#000;
+	width: 220px;
+	white-space: nowrap;
+	overflow: hidden;	
+}
+.panel a{
+	color: #000;
+}
+
+.panel a{
+	text-decoration: none;
+}
+
+.news:hover{
+	box-shadow: 6px 10px 10px rgba(0, 0, 0, .2);
+}
+
+.preview{
+	width:200px;
+	height: 200px;
+	object-fit: fill;
+}
+
+.fit{
+	object-fit: fill;
+}
+
+.info{
+	padding: 15px;
+	position: relative;
+	width: 100%;
+}
+.info h6{
+	color: grey;
+	font-size: smaller;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.info p{
+	font-size: small;
+}
+
+.overflow-ellipsis {
+	text-overflow: ellipsis;
+  }
+
+  .headerwrap{
+	  text-overflow: ellipsis;
+  }
+
+.card_hover{
+	background:#fff;
+	border-radius: 15px;
+	border-width: medium;
+}
+.card_hover:hover{
+	box-shadow: 6px 6px 6px  rgba(0, 0, 0, .2);
+}
+
+.card_hover a{
+	text-decoration: none;
+}
+
+.card_hover a:hover{
+	font-weight: bold;
+	cursor: hand;
+}
